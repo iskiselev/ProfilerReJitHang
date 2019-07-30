@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "AppToBeInstrumented": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{cf0d821e-299b-5307-a3d8-b283c03916dd}",
+        "CORECLR_PROFILER_PATH": "C:\\projects\\dotnet\\ProfilerReJitHang\\x64\\Debug\\ClrProfiler.dll",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": true
+    }
+  }
+}
